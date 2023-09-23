@@ -1,0 +1,1255 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary : #C2EFD4;
+    --secondary: #224F34;
+    --third:  #267D49;
+    --fourth: #6BC785;
+    --fifth: #FFF;
+    --text:   #373737;
+
+
+}
+@media screen /*and (min-width:821px)*/ and (max-width:1500px){
+/************HEADER********/
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background:var(--primary);
+    /* border: 1px solid red; */
+}
+.logo{
+    color:var(--secondary);
+    font-family: Elephant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    /* border: 1px solid black; */
+}
+.burguer-icon{
+    display: none;
+}
+.nav-bar{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    /* border: 1px solid blue; */
+}
+.nav-bar > ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.nav-bar ul > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    /* border: 1px solid yellow; */
+}
+.nav-bar ul > li a{
+    color: var(--secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size:16px; */
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.bag-y-elipse{
+    cursor: pointer;
+    width:30px;
+    height: 30px;
+    background-image:url("./assets/fi-rr-shopping-bag-add.svg") ;
+}
+.bag-y-elipse > .elipse{
+    margin-top: 14px;
+    margin-left: 13px;
+}
+.login-button{
+cursor: pointer;
+border-radius: 3px;
+border: 2px solid var(--secondary);
+padding: 10px;
+}
+.login-button p{
+    color:var(--secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/******SECTION-1 CAJA 1*****/
+main .section-1{
+    background: var(--primary);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+main .section-1 .caja1{
+    width: 50%;
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+}
+main .section-1 .caja1 .caja1-Titulo {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-top: 10%;
+    /* border: 1px solid rgb(0, 47, 255); */
+}
+main .section-1 .caja1 .caja1-Titulo h1 {
+    color:var(--secondary);
+    font-family: Rufina;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+main .section-1 .caja1 .caja1-Texto {
+    width: 45%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-top: 15%;
+    /* border: 1px solid rgb(255, 0, 221); */
+}
+main .section-1 .caja1 .caja1-Texto p {
+    color:var(--third);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 220%; /* 52.8px */
+}
+main .section-1 .caja1 .caja1-Boton{
+    width:20%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    background:var(--secondary);
+    box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.30);
+    /* border: 1px solid rgb(30, 255, 0); */
+}
+main .section-1 .caja1 .caja1-Boton a{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/********section-1 CAJA 2************/
+main .section-1 .caja2{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 90%;
+    margin-right: 10%;
+    /* border: 1px solid blue */
+}
+main .section-1 .caja2 .caja2-Fondo-Verde{
+    width:100%;
+    height:100%;
+    border-radius:80px 30px 80px 50px ;
+    background-color:var(--fourth) ;
+    position: relative;
+}
+main .section-1 .caja2 .caja2-lunares-1{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 90%;
+    left:60%;
+}
+main .section-1 .caja2 .caja2-lunares-1 img{
+ width: 100%;
+ height: 100%;
+}
+main .section-1 .caja2 .caja2-lunares-2{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 45%;
+    left:80%;
+}
+main .section-1 .caja2 .caja2-lunares-2 img{
+ width: 100%;
+ height: 100%;
+}
+main .section-1 .caja2 .caja2-Foto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+main .section-1 .caja2 .caja2-Foto img{
+ width: 100%;
+ height: 100%;
+}
+
+/*****SECTION 2*******/
+.section-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: var(--fifth);
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.section-2 .h2Ytexto-section-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    /* border: 1px solid green; */
+}
+.section-2 .h2Ytexto-section-2 h2{
+    color: var(--secondary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-2 .h2Ytexto-section-2 p{
+    color: #224F34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 30px;
+    line-height: normal;
+}
+.section-2 .cajitas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 15px;
+    margin-top: 40px;
+    /* border: 1px solid rgb(21, 45, 180); */
+}
+
+.section-2 .cajitas .section-2-cajita-1 , 
+.section-2-cajita-2 ,
+ .section-2-cajita-3
+ {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    /* border: 1px solid rgb(146, 180, 21); */
+}
+.section-2-cajita-1-caja-img,
+.section-2-cajita-2-caja-img,
+.section-2-cajita-3-caja-img
+{
+    width: 100%;
+    background-color:rgb(109, 148, 109) ;
+}
+
+.section-2-cajita-1-caja-img img,
+.section-2-cajita-2-caja-img img,
+.section-2-cajita-3-caja-img img
+{
+   height: 100%;
+    width: 100%;
+}
+
+.section-2-cajita-1-caja-texto,
+.section-2-cajita-2-caja-texto,
+.section-2-cajita-3-caja-texto
+{
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.section-2-cajita-1-caja-texto p,
+.section-2-cajita-2-caja-texto p,
+.section-2-cajita-3-caja-texto p
+{
+    color:var(--text);
+    text-align: center;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-2-cajita-1-caja-precioYpuntuación,
+.section-2-cajita-2-caja-precioYpuntuación,
+.section-2-cajita-3-caja-precioYpuntuación
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid yellow; */
+}
+
+.section-2-cajita-1-caja-precioYpuntuación .precio, .puntuación,
+.section-2-cajita-2-caja-precioYpuntuación .precio, .puntuación,
+.section-2-cajita-3-caja-precioYpuntuación .precio, .puntuación
+{
+    color: #454545;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-2-cajita-1-caja-precioYpuntuación .estrellita,
+.section-2-cajita-2-caja-precioYpuntuación .estrellita,
+.section-2-cajita-3-caja-precioYpuntuación .estrellita{
+    width: 15px;
+    height: 15px;
+}
+.section-2-cajita-1-caja-precioYpuntuación .estrellita img,
+.section-2-cajita-2-caja-precioYpuntuación .estrellita img,
+.section-2-cajita-3-caja-precioYpuntuación .estrellita img{
+    width: 100%;
+    height: 100%;
+}
+
+/*******SECTION 3**********/
+.section-3-h2{
+   color:var(--secondary);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 200;
+   line-height: normal;
+   text-align: center;
+   margin-top: 80px;
+   /* border: 1px solid yellow; */
+}
+.section-3{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+     margin:auto;
+    /* border: 1px solid red; */ 
+}
+.section-3-cajitas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    /* border: 1px solid green; */
+
+}
+.section-3-cajitas .section-3-cajita-1,
+.section-3-cajita-2,
+.section-3-cajita-3,
+.section-3-cajita-4,
+.section-3-cajita-5,
+.section-3-cajita-6,
+.section-3-cajita-7,
+.section-3-cajita-8
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.section-3-cajita-1-caja-img,
+.section-3-cajita-2-caja-img,
+.section-3-cajita-3-caja-img,
+.section-3-cajita-4-caja-img,
+.section-3-cajita-5-caja-img,
+.section-3-cajita-6-caja-img,
+.section-3-cajita-7-caja-img,
+.section-3-cajita-8-caja-img
+{
+    width: 100%;
+    height: 80%;
+    background-color:rgb(218, 221, 218) ; 
+   
+}
+
+.section-3-cajita-1-caja-img img,
+.section-3-cajita-2-caja-img img,
+.section-3-cajita-3-caja-img img,
+.section-3-cajita-4-caja-img img,
+.section-3-cajita-5-caja-img img,
+.section-3-cajita-6-caja-img img,
+.section-3-cajita-7-caja-img img,
+.section-3-cajita-8-caja-img img
+{
+  height: 100%;
+   width: 100%;
+}
+
+.section-3-cajita-1-caja-texto,
+.section-3-cajita-2-caja-texto,
+.section-3-cajita-3-caja-texto,
+.section-3-cajita-4-caja-texto,
+.section-3-cajita-5-caja-texto,
+.section-3-cajita-6-caja-texto,
+.section-3-cajita-7-caja-texto,
+.section-3-cajita-8-caja-texto
+{
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.section-3-cajita-1-caja-texto p,
+.section-3-cajita-2-caja-texto p,
+.section-3-cajita-3-caja-texto p,
+.section-3-cajita-4-caja-texto p,
+.section-3-cajita-5-caja-texto p,
+.section-3-cajita-6-caja-texto p,
+.section-3-cajita-7-caja-texto p,
+.section-3-cajita-8-caja-texto p
+{
+    color:var(--text);
+    text-align: center;
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-3-cajita-1-caja-precioYpuntuación,
+.section-3-cajita-2-caja-precioYpuntuación,
+.section-3-cajita-3-caja-precioYpuntuación,
+.section-3-cajita-4-caja-precioYpuntuación,
+.section-3-cajita-5-caja-precioYpuntuación,
+.section-3-cajita-6-caja-precioYpuntuación,
+.section-3-cajita-7-caja-precioYpuntuación,
+.section-3-cajita-8-caja-precioYpuntuación
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid yellow; */
+}
+
+.section-3-cajita-1-caja-precioYpuntuación .precio, .puntuación,
+.section-3-cajita-2-caja-precioYpuntuación .precio, .puntuación,
+.section-3-cajita-3-caja-precioYpuntuación .precio, .puntuación,
+.section-3-cajita-4-caja-precioYpuntuación .precio, .puntuación,
+.section-3-cajita-5-caja-precioYpuntuación .precio, .puntuación,
+.section-3-cajita-6-caja-precioYpuntuación .precio, .puntuación,
+.section-3-cajita-7-caja-precioYpuntuación .precio, .puntuación,
+.section-3-cajita-8-caja-precioYpuntuación .precio, .puntuación
+{
+    color: #454545;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-3-cajita-1-caja-precioYpuntuación .estrellita,
+.section-3-cajita-2-caja-precioYpuntuación .estrellita,
+.section-3-cajita-3-caja-precioYpuntuación .estrellita,
+.section-3-cajita-4-caja-precioYpuntuación .estrellita,
+.section-3-cajita-5-caja-precioYpuntuación .estrellita,
+.section-3-cajita-6-caja-precioYpuntuación .estrellita,
+.section-3-cajita-7-caja-precioYpuntuación .estrellita
+.section-3-cajita-8-caja-precioYpuntuación .estrellita
+{
+    width: 15px;
+    height: 15px;
+}
+.section-3-cajita-1-caja-precioYpuntuación .estrellita img,
+.section-3-cajita-2-caja-precioYpuntuación .estrellita img,
+.section-3-cajita-3-caja-precioYpuntuación .estrellita img,
+.section-3-cajita-4-caja-precioYpuntuación .estrellita img,
+.section-3-cajita-5-caja-precioYpuntuación .estrellita img,
+.section-3-cajita-6-caja-precioYpuntuación .estrellita img,
+.section-3-cajita-7-caja-precioYpuntuación .estrellita img,
+.section-3-cajita-8-caja-precioYpuntuación .estrellita img
+{
+    width: 100%;
+    height: 100%;
+}
+/*****FOOTER*****/
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--secondary);
+    margin-top: 30px;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.footer-column-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    padding: 5%;
+    gap: 20px;
+    /* border: 1px solid blue; */
+}
+.footer-column-1 .footer-h2{
+    color: var(--fifth);
+    font-family: Elephant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+   
+}
+.footer-column-1-h4{
+    color: var(--fifth);
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-socialMedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 0px;
+}
+.socialMedia-img{
+    width: 25px;
+    height: 25px;
+}
+.socialMedia-img img{
+    width: 100%;
+    height: 100%;
+}
+.footer-column-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+}
+.footer-column-2 .footer-column-2-shop, .footer-column-2-company{
+    width: 40%;
+    height: 50%;
+    margin-top:60px;
+    /* border: 1px solid red; */
+}
+.footer-column-2 li{
+    color: var(--fifth);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.footer-column-2 a{
+    cursor: pointer;
+    color:var(--primary);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-column-3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.footer-column-3 h3{
+    color:var(--primary);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 65px;
+    /* border: 1px solid wheat; */
+}
+.footer-column-3 .input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width:100%;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: 2px solid #A3F3BE;
+}
+.footer-column-3 .input p{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+}
+.footer-column-3 .input .submit{
+    padding: 7px;
+    color: #224F34;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+background: #A3F3BE;
+    /* border: 1px solid red; */
+}
+
+
+}
+/*********************************MEDIA QUERY TABLET****************/
+
+@media screen and /*(min-width:426px) and*/ (max-width:820px){
+    /****NAV****/
+    .nav-bar{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        /* border: 1px solid blue; */
+    }
+    .nav-bar ul > li a{
+        color: #224F34;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:0.875em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .burguer-icon{
+        display: none;
+        width: 30px;
+        height: 30px;
+    }
+    .burguer-icon img{ 
+       width: 100%;
+       height: 100%;
+    }
+    /******section-1 CAJA 1*****/
+main .section-1{
+    background: #C2EFD4;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+}
+main .section-1 .caja1{
+    width: 50%;
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+}
+main .section-1 .caja1 .caja1-Titulo {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-top: 10%;
+    /* border: 1px solid rgb(0, 47, 255); */
+}
+main .section-1 .caja1 .caja1-Titulo h1 {
+    color: #224F34;
+    font-family: Rufina;
+    font-size: 1.875em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+main .section-1 .caja1 .caja1-Texto {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-top: 10%;
+    /* border: 1px solid rgb(255, 0, 221); */
+}
+main .section-1 .caja1 .caja1-Texto p {
+    color: #267D49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 220%; /* 52.8px */
+}
+main .section-1 .caja1 .caja1-Boton{
+    width:40%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    background: #224F34;
+    box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.30);
+    /* border: 1px solid rgb(30, 255, 0); */
+}
+main .section-1 .caja1 .caja1-Boton a{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/********section-1 CAJA 2************/
+main .section-1 .caja2{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 80%;
+    margin-right:5%;
+    /* border: 1px solid blue */
+}
+main .section-1 .caja2 .caja2-Fondo-Verde{
+    width:100%;
+    height:100%;
+    border-radius:80px 30px 80px 50px ;
+    background-color:#6BC785 ;
+    position: relative;
+}
+main .section-1 .caja2 .caja2-lunares-1{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 90%;
+    left:60%;
+    display: none;
+}
+main .section-1 .caja2 .caja2-lunares-1 img{
+ width: 100%;
+ height: 100%;
+}
+main .section-1 .caja2 .caja2-lunares-2{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 45%;
+    left:80%;
+    display: none;
+}
+main .section-1 .caja2 .caja2-lunares-2 img{
+ width: 100%;
+ height: 100%;
+}
+main .section-1 .caja2 .caja2-Foto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+main .section-1 .caja2 .caja2-Foto img{
+ width: 100%;
+ height: 100%;
+}
+/*****SECTION 2 SIN MODIFICACIONES*****/
+
+/********SECTION 3***********/
+.section-3-h2{
+    color: #224F34;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-align: center;
+    margin-top: 80px;
+    /* border: 1px solid yellow; */
+ }
+ .section-3{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+      margin-top: 50px;
+     align-items: center;
+     justify-content: center;
+      margin:auto;
+     /* border: 1px solid red; */
+     
+ }
+ .section-3-cajitas{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 100%;
+     margin-top: 50px;
+     /* border: 1px solid green; */
+ }
+ .section-3-cajitas .section-3-cajita-1,
+ .section-3-cajita-2,
+ .section-3-cajita-3,
+ .section-3-cajita-4,
+ .section-3-cajita-5,
+ .section-3-cajita-6,
+ .section-3-cajita-7,
+ .section-3-cajita-8
+ {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width:50%;
+     align-items: center;
+     /* border: 1px solid blue; */
+ }
+ 
+ .section-3-cajita-1-caja-img,
+ .section-3-cajita-2-caja-img,
+ .section-3-cajita-3-caja-img,
+ .section-3-cajita-4-caja-img,
+ .section-3-cajita-5-caja-img,
+ .section-3-cajita-6-caja-img,
+ .section-3-cajita-7-caja-img,
+ .section-3-cajita-8-caja-img
+ {
+     width: 100%;
+     height: 80%;
+     background-color:rgb(218, 221, 218) ; 
+    
+ }
+ 
+ .section-3-cajita-1-caja-img img,
+ .section-3-cajita-2-caja-img img,
+ .section-3-cajita-3-caja-img img,
+ .section-3-cajita-4-caja-img img,
+ .section-3-cajita-5-caja-img img,
+ .section-3-cajita-6-caja-img img,
+ .section-3-cajita-7-caja-img img,
+ .section-3-cajita-8-caja-img img
+ {
+   height: 100%;
+    width: 100%;
+ }
+ 
+ .section-3-cajita-1-caja-texto,
+ .section-3-cajita-2-caja-texto,
+ .section-3-cajita-3-caja-texto,
+ .section-3-cajita-4-caja-texto,
+ .section-3-cajita-5-caja-texto,
+ .section-3-cajita-6-caja-texto,
+ .section-3-cajita-7-caja-texto,
+ .section-3-cajita-8-caja-texto
+ {
+     text-align: center;
+     margin-top: 20px;
+     /* border: 1px solid black; */
+ }
+ 
+ .section-3-cajita-1-caja-texto p,
+ .section-3-cajita-2-caja-texto p,
+ .section-3-cajita-3-caja-texto p,
+ .section-3-cajita-4-caja-texto p,
+ .section-3-cajita-5-caja-texto p,
+ .section-3-cajita-6-caja-texto p,
+ .section-3-cajita-7-caja-texto p,
+ .section-3-cajita-8-caja-texto p
+ {
+     color: #373737;
+     text-align: center;
+     font-family: Arial;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+ 
+ .section-3-cajita-1-caja-precioYpuntuación,
+ .section-3-cajita-2-caja-precioYpuntuación,
+ .section-3-cajita-3-caja-precioYpuntuación,
+ .section-3-cajita-4-caja-precioYpuntuación,
+ .section-3-cajita-5-caja-precioYpuntuación,
+ .section-3-cajita-6-caja-precioYpuntuación,
+ .section-3-cajita-7-caja-precioYpuntuación,
+ .section-3-cajita-8-caja-precioYpuntuación
+ {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     /* border: 1px solid yellow; */
+ }
+ 
+ .section-3-cajita-1-caja-precioYpuntuación .precio, .puntuación,
+ .section-3-cajita-2-caja-precioYpuntuación .precio, .puntuación,
+ .section-3-cajita-3-caja-precioYpuntuación .precio, .puntuación,
+ .section-3-cajita-4-caja-precioYpuntuación .precio, .puntuación,
+ .section-3-cajita-5-caja-precioYpuntuación .precio, .puntuación,
+ .section-3-cajita-6-caja-precioYpuntuación .precio, .puntuación,
+ .section-3-cajita-7-caja-precioYpuntuación .precio, .puntuación,
+ .section-3-cajita-8-caja-precioYpuntuación .precio, .puntuación
+ {
+     color: #454545;
+     font-family: Poppins;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+ }
+ 
+ .section-3-cajita-1-caja-precioYpuntuación .estrellita,
+ .section-3-cajita-2-caja-precioYpuntuación .estrellita,
+ .section-3-cajita-3-caja-precioYpuntuación .estrellita,
+ .section-3-cajita-4-caja-precioYpuntuación .estrellita,
+ .section-3-cajita-5-caja-precioYpuntuación .estrellita,
+ .section-3-cajita-6-caja-precioYpuntuación .estrellita,
+ .section-3-cajita-7-caja-precioYpuntuación .estrellita
+ .section-3-cajita-8-caja-precioYpuntuación .estrellita
+ {
+     width: 15px;
+     height: 15px;
+ }
+ .section-3-cajita-1-caja-precioYpuntuación .estrellita img,
+ .section-3-cajita-2-caja-precioYpuntuación .estrellita img,
+ .section-3-cajita-3-caja-precioYpuntuación .estrellita img,
+ .section-3-cajita-4-caja-precioYpuntuación .estrellita img,
+ .section-3-cajita-5-caja-precioYpuntuación .estrellita img,
+ .section-3-cajita-6-caja-precioYpuntuación .estrellita img,
+ .section-3-cajita-7-caja-precioYpuntuación .estrellita img,
+ .section-3-cajita-8-caja-precioYpuntuación .estrellita img
+ {
+     width: 100%;
+     height: 100%;
+ }
+}
+
+/*********************MEDIA QUERY MOBILE****************/
+@media screen and (max-width:425px){
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        background: #C2EFD4;
+        position: relative;
+        /* border: 1px solid red; */
+    }
+    .nav-bar{
+        display: none;
+    }
+    .logo{
+        color: #224F34;
+        font-family: Elephant;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        position: absolute;
+        top: 35px;
+        left:80px;
+       
+        /* border: 1px solid black; */
+    }
+    .burguer-icon{
+        display: block;
+        width: 40px;
+        height: 30px;
+        position: absolute;
+        top: 35px;
+        left: 20px; 
+        cursor: pointer;
+    }
+    .burguer-icon img{ 
+       width: 100%;
+       height: 100%;
+    }
+    .bag-y-elipse{
+        width:30px;
+        height: 30px;
+        background-image:url("./assets/fi-rr-shopping-bag-add.svg");
+        position: absolute;
+        top: 35px;
+        right:50px;
+        display: none;
+    }
+    .login-button{
+        cursor: pointer;
+        border-radius: 3px;
+        border: 2px solid #224F34;
+        padding: 5px;
+        position: absolute;
+        top: 35px;
+        right:30px; 
+        }
+        .login-button p{
+            color: #224F34;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        /********SECTION 2***********/
+        .section-2 .cajitas .section-2-cajita-1 ,
+         .section-2-cajita-2 ,
+          .section-2-cajita-3
+          {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 70%;
+            /* border: 1px solid rgb(146, 180, 21); */
+        }
+        /****SECTION 3****/
+        .section-3-cajitas{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 90%;
+            margin-top: 50px;
+            /* border: 1px solid green; */
+        }
+        .section-3-cajitas .section-3-cajita-1,
+        .section-3-cajita-2,
+        .section-3-cajita-3,
+        .section-3-cajita-4,
+        .section-3-cajita-5,
+        .section-3-cajita-6,
+        .section-3-cajita-7,
+        .section-3-cajita-8
+        {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width:100%;
+            align-items: center;
+            /* border: 1px solid blue; */
+        }
+
+        /*****FOOTER*****/
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #224F34;
+    margin-top: 20px;
+    justify-content: left;
+    /* border: 1px solid red; */
+}
+.footer-column-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    padding: 5%;
+    gap: 20px;
+    /* border: 1px solid blue; */
+}
+.footer-column-1 .footer-h2{
+    color: #FFF;
+    font-family: Elephant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+   
+}
+.footer-column-1-h4{
+    color: #FFF;
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-socialMedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 0px;
+}
+.socialMedia-img{
+    width: 25px;
+    height: 25px;
+}
+.socialMedia-img img{
+    width: 100%;
+    height: 100%;
+}
+.footer-column-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:40%;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+}
+.footer-column-2 .footer-column-2-shop, .footer-column-2-company{
+    width: 45%;
+    height: 50%;
+    margin-top:35px;
+    /* border: 1px solid red; */
+}
+.footer-column-2 li{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 5px;
+    /* border: 1px solid pink; */
+}
+.footer-column-2 a{
+    cursor: pointer;
+    color: #C2EFD4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-column-3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.footer-column-3 h3{
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 42px;
+    margin-left: 15px;
+    /* border: 1px solid wheat; */
+}
+.footer-column-3 .input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width:100%;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 30px;
+    border: 2px solid #A3F3BE;
+}
+.footer-column-3 .input p{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0px;
+}
+.footer-column-3 .input .submit{
+    padding-top: 12px;
+    text-align: center;
+    justify-content: center;
+    color: #224F34;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    background: #A3F3BE;
+    /* border: 1px solid red; */
+}
+
+}
